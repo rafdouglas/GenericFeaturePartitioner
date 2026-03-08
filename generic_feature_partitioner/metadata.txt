@@ -1,0 +1,14 @@
+[general]
+name=generic_feature_partitioner
+qgisMinimumVersion=3.34
+description=Split polygons using partition lines via topology/polygonize approach
+version=0.1.0
+author=RafDouglas C. Tommasi
+email=rafdouglas@gmail.com
+about=Splits polygon features (e.g. building footprints) using intersecting line features (e.g. internal partition walls) by building a planar topology and polygonizing. Outputs sub-polygons with original attributes plus PARENT_FID and SUB_ID fields.
+tracker=
+repository=
+homepage=https://www.linkedin.com/in/rafdouglas/
+hasProcessingProvider=yes
+category=Vector
+tags=polygon,split,partition,polygonize,topology,vector,geometry
