@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "qgis: tests requiring QGIS application instance (skipped without QGIS)",
+]
+addopts = "-v --tb=short"
